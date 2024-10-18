@@ -140,7 +140,7 @@ export const Bg = styled.div`
   border-radius: 15px;
   background-position: center;
 `;
-
+// sign in component
 const SignInComponent = () => {
   
 
@@ -159,7 +159,7 @@ const SignInComponent = () => {
     e.preventDefault();
     if (email !== "") {
       try {
-        const response = await fetch("http://localhost:5000/add-sign-in", {
+        const response = await fetch("https://api-lms.inomjonov.site/add-sign-in", {
          method: 'POST',
          headers:{
           "Content-Type":"application/json"
@@ -220,6 +220,7 @@ const SignInComponent = () => {
                 name="email"
                 onChange={(e) => {setEmail(e.target.value)}}
                 value={email}
+                required
               />
               <label htmlFor="">Passworad</label>
               <div sx={{ display: "flex", flexWrap: "wrap" }}>

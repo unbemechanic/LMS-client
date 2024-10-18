@@ -129,7 +129,7 @@ const RequestDemoComponent = () => {
     e.preventDefault();
     if (name !== "") {
       try {
-        const response = await axios.post("http://localhost:5000/add-sign-up", {
+        const response = await axios.post("https://api-lms.inomjonov.site/add-sign-up", {
           name, surname, number, email, password
         })
         if(response.email){
