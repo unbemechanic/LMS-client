@@ -258,6 +258,11 @@ const SignInComponent = () => {
               </Link>
             </BottomSec>
           </FormWrapper>
+          <div>
+            <h1>For project showcase</h1>
+            <p>Email: <b>admin@mail.ru</b></p>
+            <p>Password: <b>admin</b></p>
+          </div>
         </SignWrapper>
         <Bg></Bg>
       </Container>
