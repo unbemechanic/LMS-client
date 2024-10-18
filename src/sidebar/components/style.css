@@ -1,0 +1,45 @@
+/* custom-datepicker.css */
+.custom-datepicker .react-datepicker {
+    width: 300px;
+    height: 400px;
+  }
+  
+  .custom-datepicker .react-datepicker__month-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .custom-datepicker .react-datepicker__header {
+    background-color: #f0f0f0; /* Adjust as needed */
+    border-bottom: 1px solid #e0e0e0; /* Adjust as needed */
+  }
+  
+  .custom-datepicker .react-datepicker__current-month {
+    font-size: 1rem; /* Adjust as needed */
+    margin-bottom: 0.5rem; /* Adjust as needed */
+  }
+  
+  .custom-datepicker .react-datepicker__day-names,
+  .custom-datepicker .react-datepicker__week {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .custom-datepicker .react-datepicker__day,
+  .custom-datepicker .react-datepicker__day-name,
+  .custom-datepicker .react-datepicker__day--selected,
+  .custom-datepicker .react-datepicker__day--keyboard-selected {
+    width: 2.5rem; /* Adjust as needed */
+    height: 2.5rem; /* Adjust as needed */
+    line-height: 2.5rem; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.2rem;
+    box-sizing: border-box;
+  }
+  
+  .custom-datepicker .react-datepicker__day--outside-month {
+    visibility: hidden; /* Hide days outside the current month */
+  }
+  

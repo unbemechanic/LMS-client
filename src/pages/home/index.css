@@ -1,0 +1,115 @@
+.select-box{
+    appearance: none;
+    border: none;
+    height: 40px;
+    border-radius: 0px;
+    color: var(--600, #2C2669);
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: "Public Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    cursor: pointer;
+}
+
+
+.select-box:focus{
+    outline: none;
+    width: 80px;
+}
+.selectContainer{
+    display: flex;
+    align-items: center;
+    border: 1px solid  #2C2669;
+    width: 88px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    justify-content: center;
+    gap: 4px;
+    position: relative;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 50px;
+    z-index: 999;
+    /* margin-inline: auto; */
+    background-color: #fff;
+    h1{
+        color: var(--600, #2C2669);
+        font-family: "Public Sans";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 133.333% */
+    }
+}
+
+body{
+    background-color: #EFEEF8;
+
+}
+.send{
+    display: flex;
+    height: 44px;
+    padding: 10px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background-color: #2C2669;
+    color: var(--50, var(--Color-7, #FFF));
+
+    /* Regular/18px -> 24px */
+    font-family: "Public Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-top: 1px solid #6053B9;
+    margin-top: 15px;
+    button{
+        color: var(--600, #2C2669);
+        font-family: "Public Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 133.333% */
+        padding: 5px 20px;
+        border-radius: 6px;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+}
+.select-Container{
+    display: flex;
+    align-items: center;
+    border: none;
+    width: 88px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    justify-content: center;
+    gap: 4px;
+    position: relative;
+    background-color: white;
+}
